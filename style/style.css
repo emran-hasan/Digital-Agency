@@ -69,3 +69,70 @@
     margin-right: 15px;
     border: none;
 }
+/* --------------service section---- */
+.service-container{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('../asset/image/footer-bg.png');
+    height: 100vh;
+}
+.service-content{
+    padding: 30px;
+}
+.service-btn{
+    padding: 15px 25px ;
+    font-size: 25px;
+    background-color: white;
+    color: rgb(43, 42, 42);
+    margin-right: 15px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.service-content h1{
+    font-size: 50px;
+    font-weight: 600;  
+}
+.service-content span{
+    color: #f52c2c;
+}
+.service-content p{
+    font-size: 30px;
+    margin: 30px 0;
+    color: aliceblue;
+}
+.service-content ol li{
+    font-size: 25px;
+    color: aliceblue;
+}
+.service-content ol{
+    margin-left: -14px;
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    padding: 15px;
+}
+.author img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.author-title{
+    color: white;
+}
+.author-btn{
+    padding: 15px 25px ;
+    font-size: 25px;
+    background-color: white;
+    color: rgb(43, 42, 42);
+    margin-right: 15px;
+    border: none;
+    border-radius: 10px;   
+}
+.author-container{
+    display: flex;
+    align-items: center;
+}
+.author-btn-container{
+    border-left: 1px solid #f52c2c ;
+    
+}
